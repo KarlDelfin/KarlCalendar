@@ -1,0 +1,416 @@
+[
+  {
+    "ContainingType": "Calendar.Api.Controllers.CalendarController",
+    "Method": "AddCalendar",
+    "RelativePath": "api/Calendar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Calendar.Api.DTO.CalendarDTO_POST",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calendar.Api.Controllers.CalendarController",
+    "Method": "UpdateCalendar",
+    "RelativePath": "api/Calendar/{calendarId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "calendarId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Calendar.Api.DTO.CalendarDTO_PUT",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calendar.Api.Controllers.CalendarController",
+    "Method": "DeleteCalendar",
+    "RelativePath": "api/Calendar/{calendarId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "calendarId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calendar.Api.Controllers.CalendarController",
+    "Method": "GetCalendarByUserId",
+    "RelativePath": "api/Calendar/User/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "CurrentPage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ElementsPerPage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calendar.Api.Controllers.CalendarEventController",
+    "Method": "AddCalendarEvent",
+    "RelativePath": "api/CalendarEvent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Calendar.Api.DTO.CalendarEventDTO_POST, Calendar.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calendar.Api.Controllers.CalendarEventController",
+    "Method": "UpdateCalendarEvent",
+    "RelativePath": "api/CalendarEvent",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "calendarEventId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "calendarEventGroupId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "actionStatus",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Calendar.Api.DTO.CalendarEventDTO_POST, Calendar.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calendar.Api.Controllers.CalendarEventController",
+    "Method": "GetCalendarEventByCalendarEventGroupId",
+    "RelativePath": "api/CalendarEvent/{calendarEventGroupId}/Group",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "calendarEventGroupId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calendar.Api.Controllers.CalendarEventController",
+    "Method": "DeleteCalendarEventByCalendarEventGroupId",
+    "RelativePath": "api/CalendarEvent/{calendarEventGroupId}/Group",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "calendarEventGroupId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calendar.Api.Controllers.CalendarEventController",
+    "Method": "GetCalendarEventByCalendarEventId",
+    "RelativePath": "api/CalendarEvent/{calendarEventId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "calendarEventId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calendar.Api.Controllers.CalendarEventController",
+    "Method": "MoveResizeEvent",
+    "RelativePath": "api/CalendarEvent/{calendarEventId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "calendarEventId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Calendar.Api.DTO.CalendarEventDTO_PUT",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calendar.Api.Controllers.CalendarEventController",
+    "Method": "DeleteCalendarEventByCalendarEventId",
+    "RelativePath": "api/CalendarEvent/{calendarEventId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "calendarEventId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calendar.Api.Controllers.CalendarEventController",
+    "Method": "GetCalendarEvent",
+    "RelativePath": "api/CalendarEvent/Calendar/{calendarId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "calendarId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dateTimeStarted",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "dateTimeEnded",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calendar.API.Controllers.SharedCalendarController",
+    "Method": "GrantUser",
+    "RelativePath": "api/SharedCalendar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sharedCalendar",
+        "Type": "Calendar.API.DTO.SharedCalendarDTO_POST",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calendar.API.Controllers.SharedCalendarController",
+    "Method": "GetAllSharedCalendarByCalendarId",
+    "RelativePath": "api/SharedCalendar/{calendarId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "calendarId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "CurrentPage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ElementsPerPage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calendar.API.Controllers.SharedCalendarController",
+    "Method": "RevokeUser",
+    "RelativePath": "api/SharedCalendar/{sharedCalendarId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sharedCalendarId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calendar.API.Controllers.SharedCalendarController",
+    "Method": "GetSharedCalendarByUserId",
+    "RelativePath": "api/SharedCalendar/User/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calendar.Api.Controllers.UserAssignmentController",
+    "Method": "RegisterUser",
+    "RelativePath": "api/UserAssignment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calendar.Api.Controllers.UserAssignmentController",
+    "Method": "LoginUser",
+    "RelativePath": "api/UserAssignment/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Calendar.Api.DTO.UserAssignmentDTO_LOGIN",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Calendar.Api.Controllers.UserAssignmentController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/UserAssignment/User/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

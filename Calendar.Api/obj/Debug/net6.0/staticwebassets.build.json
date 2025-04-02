@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "XvQNHflE230ilGPiiIrwXgGvnhUL/CimNNDKfJDbJ78=",
+  "Source": "Calendar.Api",
+  "BasePath": "_content/Calendar.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Calendar.Api\\wwwroot",
+      "Source": "Calendar.Api",
+      "ContentRoot": "D:\\Passion Projects\\Calendar\\Calendar.Api\\Calendar.Api\\wwwroot\\",
+      "BasePath": "_content/Calendar.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Passion Projects\\Calendar\\Calendar.Api\\Calendar.Api\\wwwroot\\Images\\User\\29d06ae0-87b2-4d43-b5e7-a1133d5e74cf.jpg",
+      "SourceId": "Calendar.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Passion Projects\\Calendar\\Calendar.Api\\Calendar.Api\\wwwroot\\",
+      "BasePath": "_content/Calendar.Api",
+      "RelativePath": "Images/User/29d06ae0-87b2-4d43-b5e7-a1133d5e74cf#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c8torzpksv",
+      "Integrity": "/KBnuer09D4xkRMZPTkgp3s/t81He8Id7rxuLu1vJnI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\User\\29d06ae0-87b2-4d43-b5e7-a1133d5e74cf.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Images/User/29d06ae0-87b2-4d43-b5e7-a1133d5e74cf.c8torzpksv.jpg",
+      "AssetFile": "D:\\Passion Projects\\Calendar\\Calendar.Api\\Calendar.Api\\wwwroot\\Images\\User\\29d06ae0-87b2-4d43-b5e7-a1133d5e74cf.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8704"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/KBnuer09D4xkRMZPTkgp3s/t81He8Id7rxuLu1vJnI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 03:09:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c8torzpksv"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/User/29d06ae0-87b2-4d43-b5e7-a1133d5e74cf.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/KBnuer09D4xkRMZPTkgp3s/t81He8Id7rxuLu1vJnI="
+        }
+      ]
+    },
+    {
+      "Route": "Images/User/29d06ae0-87b2-4d43-b5e7-a1133d5e74cf.jpg",
+      "AssetFile": "D:\\Passion Projects\\Calendar\\Calendar.Api\\Calendar.Api\\wwwroot\\Images\\User\\29d06ae0-87b2-4d43-b5e7-a1133d5e74cf.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8704"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/KBnuer09D4xkRMZPTkgp3s/t81He8Id7rxuLu1vJnI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 03:09:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/KBnuer09D4xkRMZPTkgp3s/t81He8Id7rxuLu1vJnI="
+        }
+      ]
+    }
+  ]
+}
