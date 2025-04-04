@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\Passion Projects\\Calendar\\Calendar.Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DF06B017-6B40-4756-A450-44AF508FE085}|Calendar.Api\\Calendar.Api.csproj|d:\\passion projects\\calendar\\calendar.api\\calendar.api\\migrations\\20250404113213_newserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF06B017-6B40-4756-A450-44AF508FE085}|Calendar.Api\\Calendar.Api.csproj|solutionrelative:calendar.api\\migrations\\20250404113213_newserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF06B017-6B40-4756-A450-44AF508FE085}|Calendar.Api\\Calendar.Api.csproj|d:\\passion projects\\calendar\\calendar.api\\calendar.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DF06B017-6B40-4756-A450-44AF508FE085}|Calendar.Api\\Calendar.Api.csproj|solutionrelative:calendar.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF06B017-6B40-4756-A450-44AF508FE085}|Calendar.Api\\Calendar.Api.csproj|d:\\passion projects\\calendar\\calendar.api\\calendar.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF06B017-6B40-4756-A450-44AF508FE085}|Calendar.Api\\Calendar.Api.csproj|solutionrelative:calendar.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DF06B017-6B40-4756-A450-44AF508FE085}|Calendar.Api\\Calendar.Api.csproj|d:\\passion projects\\calendar\\calendar.api\\calendar.api\\logics\\userassignmentlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF06B017-6B40-4756-A450-44AF508FE085}|Calendar.Api\\Calendar.Api.csproj|solutionrelative:calendar.api\\logics\\userassignmentlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +31,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20250404113213_NewServer.cs",
+              "DocumentMoniker": "D:\\Passion Projects\\Calendar\\Calendar.Api\\Calendar.Api\\Migrations\\20250404113213_NewServer.cs",
+              "RelativeDocumentMoniker": "Calendar.Api\\Migrations\\20250404113213_NewServer.cs",
+              "ToolTip": "D:\\Passion Projects\\Calendar\\Calendar.Api\\Calendar.Api\\Migrations\\20250404113213_NewServer.cs",
+              "RelativeToolTip": "Calendar.Api\\Migrations\\20250404113213_NewServer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T11:32:14.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Passion Projects\\Calendar\\Calendar.Api\\Calendar.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Calendar.Api\\Program.cs",
+              "ToolTip": "D:\\Passion Projects\\Calendar\\Calendar.Api\\Calendar.Api\\Program.cs",
+              "RelativeToolTip": "Calendar.Api\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T13:04:01.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Passion Projects\\Calendar\\Calendar.Api\\Calendar.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Calendar.Api\\appsettings.json",
+              "ToolTip": "D:\\Passion Projects\\Calendar\\Calendar.Api\\Calendar.Api\\appsettings.json",
+              "RelativeToolTip": "Calendar.Api\\appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-02T13:01:39.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UserAssignmentLogic.cs",
               "DocumentMoniker": "D:\\Passion Projects\\Calendar\\Calendar.Api\\Calendar.Api\\Logics\\UserAssignmentLogic.cs",
               "RelativeDocumentMoniker": "Calendar.Api\\Logics\\UserAssignmentLogic.cs",
@@ -26,8 +76,7 @@
               "RelativeToolTip": "Calendar.Api\\Logics\\UserAssignmentLogic.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T12:14:11.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T12:14:11.134Z"
             }
           ]
         }
